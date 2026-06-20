@@ -9,15 +9,15 @@ This model is specially designed for bird song separation tasks, with targeted i
 - Developed based on the Asteroid speech/audio separation framework, adapted to the feature characteristics of bird song audio, with good scalability and generalization
 
 ## Environmental Dependencies
-```bash
-# Basic core dependencies
-pip install torch>=1.9.0 numpy>=1.21.0
+```
+### Create .venv
+python -m venv .venv
 
-# Core audio separation framework
-pip install asteroid==0.5.4
+### Activate venv
+source .venv/bin/activate
 
-# Audio processing tools (required for reading/writing and preprocessing bird song audio)
-pip install soundfile librosa
+### Install dependencies
+pip install .
 ```
 
 ## Model Architecture

@@ -1,0 +1,6 @@
+torch>=1.9.0
+asteroid>=0.5.4
+datasets
+numpy>=1.21.0
+soundfile
+librosa

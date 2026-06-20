@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: separation
+Version: 0.0.0
+License-File: LICENSE
+Requires-Dist: torch>=1.9.0
+Requires-Dist: asteroid>=0.5.4
+Requires-Dist: datasets
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: soundfile
+Requires-Dist: librosa
+Dynamic: license-file
